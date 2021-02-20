@@ -1,1 +1,26 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+.card {
+  position: relative;
+  width: 200px;
+  height: 300px;
+  border-radius: 20px;
+  border: 1px solid black;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+  margin: auto;
+  margin-top: 200px;
+}
+body {
+  background-color: darkolivegreen;
+}
+.btn {
+  margin: auto;
+}
+.card-suits1 {
+  position: left;
+}
+.card-suits2 {
+  position: right;
+}
+.card-text {
+  position: center;
+}
